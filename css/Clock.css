@@ -1,0 +1,73 @@
+.title {
+    text-align:center ;
+    margin-top: 30px;
+}
+
+div#clock {
+    width: 100%;
+}
+
+div.hours, div.minutes, div.seconds {
+    clear:both;
+}
+
+.highTop {
+    margin-top: 7%;
+}
+
+.lowTop {
+    margin-top: 1%;
+}
+
+.green {
+    width: 7%;
+    float:left;
+    margin-left: 4%;
+    border: 3px solid black;
+    background-color:#299f20;            
+}
+
+.black {
+    width: 7%;
+    float:left;
+    margin-left: 4%;
+    border: 3px solid white;
+    color:black;
+    text-align:center;
+}
+
+.white {
+    width: 7%;
+    float:left;
+    margin-left: 4%;
+    background-color:white;
+    color:white;
+    border: 3px solid white;
+}
+
+.gray {
+    width: 7%;
+    float: left;
+    margin-left: 4%;
+    background-color: #CCCCCC;
+    border: 3px solid black;
+}
+
+.levelDiv {
+	width: 100%; 
+	float:left;
+    margin-left: 4%;
+    border: 3px solid white;
+    color:black;
+    text-align:center;
+}
+
+label.radioButton {
+    width: 14%;
+	text-align: right;
+}
+
+input.radioButton {
+    width: 14%;
+	text-align: left;
+}
